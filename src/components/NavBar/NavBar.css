@@ -1,20 +1,43 @@
 nav {
-  width: 100%;
-  /* float: left;
-  margin: 0 0 3em 0;
-  padding: 0; */
-  /* list-style: none; */
-  
+  height: 8vh;
+  display: flex; /* make nav into a flex box so we can use justify-content and aligh-items properties */
+  justify-content: space-between; /* make div and ul apart */
+  align-items: center; /* make them center vertically in the navbar flex box */
+  background-color: black;
+  color: white;
 }
 
-li {
-  float: left;
-  list-style: none;
-  display: block;
-  padding: 8px 15px;
-  /* text-decoration: none; */
-  font-weight: bold;
-  /* color: #069; */
-  border-right: 1px solid #ccc;
+nav div {
+  display: block; /* make it block so we can add padding to adjust spacing */
+  padding-left: 5vw;
+  cursor: pointer;
 }
 
+nav ul {
+  height: 100%; /* inherit height of navbar */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+}
+
+nav li {
+  list-style: none; /* get rid of bullet point */
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* nav li a {
+  display: flex;
+} */
+
+nav li:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+/*
+.Active {
+  background-color: #4caf50;
+} */

@@ -10,18 +10,24 @@ const NavBar = (props) => {
   // };
   return (
     <nav>
+      <div>Logo</div>
       <ul>
         <li>
-          <a href="#">Weiyi Zhu</a>
+          <a>Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a>About</a>
         </li>
         <li>
-          <a href="#">Projects</a>
+          <a>Projects</a>
         </li>
         <li>
-          <a href={Resume} download="Resume.pdf">Resume</a>
+          <a>Contact</a>
+        </li>
+        <li>
+          <a href={Resume} download="Resume.pdf" style={{ color: "white" }}>
+            Resume
+          </a>
         </li>
       </ul>
     </nav>
