@@ -25,7 +25,7 @@ const NavBar = (props) => {
           <a>Contact</a>
         </li>
         <li>
-          <a href={Resume} download="Resume.pdf" style={{ color: "white" }}>
+          <a href={Resume} download="Resume.pdf" className="download-btn2">
             Resume
           </a>
         </li>

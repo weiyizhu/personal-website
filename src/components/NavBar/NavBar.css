@@ -1,10 +1,13 @@
 nav {
+  
   height: 8vh;
+  width: 100%;
   display: flex; /* make nav into a flex box so we can use justify-content and aligh-items properties */
   justify-content: space-between; /* make div and ul apart */
   align-items: center; /* make them center vertically in the navbar flex box */
   background-color: black;
   color: white;
+  
 }
 
 nav div {
@@ -36,6 +39,27 @@ nav li {
 nav li:hover {
   background-color: #333;
   cursor: pointer;
+}
+
+nav > ul > li > a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.download-btn2 {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #333;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 10px 30px;
+    position: relative;
+    background: #fff;
+}
+
+.download-btn2:hover {
+  background: lightblue;
 }
 /*
 .Active {
