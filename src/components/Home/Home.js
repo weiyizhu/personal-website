@@ -19,8 +19,8 @@ const Home = (props) => {
           <img id="headshot" src={headshot} alt="headshot"></img>
           <div className="text-container">
             <h5>WELCOME</h5>
-            <h2 style={{ marginTop: 20 }}>MY NAME IS WEIYI ZHU</h2>
-            <p style={{ marginTop: 20 }}>I'm a Software Engineer</p>
+            <h2>MY NAME IS WEIYI ZHU</h2>
+            <p>I'm a Software Engineer</p>
             <a href={Resume} download="Resume.pdf" className="download-btn">
               DOWNLOAD RESUME
             </a>

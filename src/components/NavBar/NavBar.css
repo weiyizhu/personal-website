@@ -1,8 +1,7 @@
 nav {
-  
   height: 8vh;
   width: 100%;
-  display: flex; /* make nav into a flex box so we can use justify-content and aligh-items properties */
+  display: flex; /* make nav into a flex box so we can use justify-content and align-items properties */
   justify-content: space-between; /* make div and ul apart */
   align-items: center; /* make them center vertically in the navbar flex box */
   background-color: black;
@@ -30,6 +29,7 @@ nav li {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0 10px;
 }
 
 /* nav li a {
@@ -56,6 +56,7 @@ nav > ul > li > a {
     padding: 10px 30px;
     position: relative;
     background: #fff;
+    text-decoration: none;
 }
 
 .download-btn2:hover {

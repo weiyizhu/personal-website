@@ -7,6 +7,7 @@
   align-items: center;
   object-fit: contain; */
   position: relative;
+  --animationDuration: 1.5s; /* css variable */
 }
 
 #background_img {
@@ -32,36 +33,71 @@
   object-fit: contain; */
 }
 
-#headshot {
-  /* align-self: center; */
-}
-
 .text-container {
   color: #fff;
   align-self: flex-start;
-  margin-top: 25vh;
+  margin-top: 23vh;
 }
 
 .text-container h5 {
   font-size: 40px;
   font-weight: bold;
+  animation-delay: 0.5s;
 }
 .text-container h2 {
-  font-size: 40px;
+  font-size:  60px;
   font-weight: bolder;
+  animation-delay: 1s;
+  margin-top: 25px;
+}
+
+.text-container p {
+  font-size: 30px;
+  animation-delay: 2s;
+  margin-top: 25px;
 }
 
 .download-btn {
-    border: 1px solid #fff;
-    border-radius: 5px;
-    color: #333;
-    display: inline-block;
-    font-family: "Open Sans",sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 30px;
-    overflow: hidden;
-    padding: 10px 40px;
-    position: relative;
-    background: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #333;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 40px;
+  overflow: hidden;
+  padding: 15px 30px;
+  position: relative;
+  background: #fff;
+  animation-delay: 2.5s;
+  text-decoration: none; /* get rid of underline */
 }
+
+.download-btn:hover {
+  background: lightblue;
+}
+
+.text-container h5,
+.text-container h2,
+.text-container p,
+.download-btn, #headshot {
+  animation-duration: var(--animationDuration);
+  animation-name: fadeIn;
+  animation-timing-function: ease-in;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
