@@ -4,7 +4,7 @@ import "./Projects.css";
 
 const Project = (props) => {
   return (
-    <>
+    <div id="projects">
       <h1>Projects</h1>
       <hr></hr>
       <ul>
@@ -15,7 +15,7 @@ const Project = (props) => {
           <ProjectItem />
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

@@ -10,19 +10,16 @@ const NavBar = (props) => {
   // };
   return (
     <nav>
-      <div>Logo</div>
+      <a href="/">Logo</a>
       <ul>
         <li>
           <a>Home</a>
         </li>
         <li>
-          <a>About</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a>Projects</a>
-        </li>
-        <li>
-          <a>Contact</a>
+          <a href="#contact">Contact</a>
         </li>
         <li>
           <a href={Resume} download="Resume.pdf" className="download-btn2">
