@@ -1,0 +1,23 @@
+#projects {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#projects h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.projects_container {
+  display: grid;
+  grid-template-columns: 39vw 39vw;
+  grid-template-rows: 30vw;
+}
+
+.projects_container li {
+  border: 1px solid red;
+  margin: 1vw;
+}
