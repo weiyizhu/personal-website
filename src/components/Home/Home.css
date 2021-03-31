@@ -33,10 +33,14 @@
   object-fit: contain; */
 }
 
+#headshot {
+  margin-top: -10vh;
+  width: 20vw;
+}
+
 .text-container {
   color: #fff;
-  align-self: flex-start;
-  margin-top: 23vh;
+  margin-top: -15vh;
 }
 
 .text-container h5 {

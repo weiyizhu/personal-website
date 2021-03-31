@@ -10,10 +10,10 @@ const NavBar = (props) => {
   // };
   return (
     <nav>
-      <a href="/">Logo</a>
+      <a class="logo" href="#">Logo</a>
       <ul>
         <li>
-          <a>Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
           <a href="#projects">Projects</a>

@@ -13,7 +13,6 @@ const Home = (props) => {
           id="background_img"
           src={image}
           alt="background image"
-          style={{ width: "100%" }}
         ></img>
         <div className="inner-container">
           <img id="headshot" src={headshot} alt="headshot"></img>

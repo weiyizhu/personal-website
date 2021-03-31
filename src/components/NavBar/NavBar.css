@@ -6,57 +6,51 @@ nav {
   align-items: center; /* make them center vertically in the navbar flex box */
   background-color: black;
   color: white;
-  
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-nav div {
-  display: block; /* make it block so we can add padding to adjust spacing */
+.logo {
   padding-left: 5vw;
   cursor: pointer;
 }
 
 nav ul {
-  height: 100%; /* inherit height of navbar */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 60%;
 }
 
-nav li {
+li {
   list-style: none; /* get rid of bullet point */
-  height: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 0 10px;
 }
-
-/* nav li a {
-  display: flex;
-} */
 
 nav li:hover {
   background-color: #333;
   cursor: pointer;
 }
 
-nav > ul > li > a {
-  font-family: 'Montserrat', sans-serif;
+nav a {
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 .download-btn2 {
-    border: 1px solid #fff;
-    border-radius: 3px;
-    color: #333;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 700;
-    overflow: hidden;
-    padding: 10px 30px;
-    position: relative;
-    background: #fff;
-    text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #333;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  overflow: hidden;
+  padding: 10px 30px;
+  position: relative;
+  background: #fff;
+  text-decoration: none;
 }
 
 .download-btn2:hover {
