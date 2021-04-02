@@ -1,0 +1,48 @@
+.projectItem-container {
+  box-sizing: border-box;
+  box-shadow: 0 0 9px 1px rgb(17 17 17 / 30%);
+  padding: 0.5vw; /* inside each box */
+  margin: 1vw; /* outside each box */
+  border-radius: 10px;
+  flex: 1 1;
+  overflow: hidden;
+  width: 38vw;
+  height: 30vw;
+}
+
+.projectItem-img-desc {
+  position: relative;
+  height: 75%;
+  margin-bottom: 0.5vw;
+}
+
+.projectItem-container img {
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.projectItem-desc {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.projectItem-container:hover .projectItem-desc {
+  opacity: 1;
+}
+
+.projectItem-brief {
+    text-align: center;
+}
+
+.projectItem-brief-title {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Open Sans",sans-serif;
+}
