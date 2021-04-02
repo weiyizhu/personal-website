@@ -10,7 +10,7 @@ const NavBar = (props) => {
   // };
   return (
     <nav>
-      <a class="logo" href="#">Logo</a>
+      <a className="logo" href="#">Logo</a>
       <ul>
         <li>
           <a href="#">Home</a>
