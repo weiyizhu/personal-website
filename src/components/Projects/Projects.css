@@ -8,16 +8,31 @@
 #projects h1 {
     font-size: 3em;
     font-weight: bold;
-    margin-bottom: 50px;
+    
+}
+
+#projects hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .projects_container {
-  display: grid;
-  grid-template-columns: 39vw 39vw;
-  grid-template-rows: 30vw;
+  /* display: grid;
+  grid-template-columns: repeat(1fr 1fr);
+  grid-template-rows: repeat(30vw); */
+  display: block;
+  box-sizing: border-box;
 }
 
-.projects_container li {
-  border: 1px solid red;
-  margin: 1vw;
+.projects_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
+.projects_row li {
+  display: block;
+  width: 40vw;
+}
+
+
