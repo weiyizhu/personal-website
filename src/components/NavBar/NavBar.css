@@ -51,6 +51,7 @@ nav a {
   position: relative;
   background: #fff;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .download-btn2:hover {
