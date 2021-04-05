@@ -14,8 +14,7 @@ const Project = (props) => {
             <ProjectItem
               imgSrc={NinePM}
               title={"9 PM"}
-              brief_desc={`An online teaming platform aiming to help gamers find teammates based on available times, games,
-and teams.`}
+              brief_desc={`An online teaming platform helping gamers find teammates.`}
               desc={[
                 `An online teaming platform aiming to help gamers find teammates based on available times, games,
 and teams.`,

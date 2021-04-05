@@ -34,7 +34,9 @@ const ProjectItem = ({
       </picture> */}
       <div className="projectItem-brief">
         <p>
-          <h5 className="projectItem-brief-title">{title}</h5>
+          <h5 className="projectItem-brief-title">
+            <a href={link} style={{textDecoration: "none", color: "black"}}>{title}</a>
+          </h5>
         </p>
         <p className="projectItem-brief-desc">{brief_desc}</p>
         <p className="projectItem-brief-desc">
