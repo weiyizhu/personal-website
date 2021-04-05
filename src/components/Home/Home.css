@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   /* padding-top: 23vh; 
   padding-left: 10vw; */
   /* width: 30vw;
@@ -34,31 +34,36 @@
 }
 
 #headshot {
+  display: block;
   margin-top: -10vh;
   width: 20vw;
+  margin-left: 15vw;
+  margin-right: 5vw;
 }
 
 .text-container {
+  display: block;
   color: #fff;
   margin-top: -15vh;
+  margin-right: 10vw;
 }
 
 .text-container h5 {
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 3vw;
+  font-weight: 1em;
   animation-delay: 0.5s;
 }
 .text-container h2 {
-  font-size:  60px;
-  font-weight: bolder;
+  font-size: 4vw;
+  font-weight: 2em;
   animation-delay: 1s;
-  margin-top: 25px;
+  margin-top: 2vw;
 }
 
 .text-container p {
-  font-size: 30px;
+  font-size: 2vw;
   animation-delay: 2s;
-  margin-top: 25px;
+  margin-top: 2vw;
 }
 
 .download-btn {
@@ -67,11 +72,11 @@
   color: #333;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-size: 1vw;
   font-weight: 700;
-  margin-top: 40px;
+  margin-top: 2.5vw;
   overflow: hidden;
-  padding: 15px 30px;
+  padding: 1vw 2vw;
   position: relative;
   background: #fff;
   animation-delay: 2.5s;

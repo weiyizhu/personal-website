@@ -8,9 +8,12 @@ const NavBar = (props) => {
   // const handleClick = () => {
   //   setClicked(!clicked);
   // };
+  //https://www.prwhite.io/blog/sticky-navbar-hides-scroll
   return (
     <nav>
-      <a className="logo" href="#">Logo</a>
+      <a className="logo" href="#">
+        Logo
+      </a>
       <ul>
         <li>
           <a href="#">Home</a>
@@ -19,7 +22,7 @@ const NavBar = (props) => {
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#footer">Contact</a>
         </li>
         <li>
           <a href={Resume} download="Resume.pdf" className="download-btn2">

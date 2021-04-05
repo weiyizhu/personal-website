@@ -6,13 +6,13 @@ nav {
   align-items: center; /* make them center vertically in the navbar flex box */
   background-color: black;
   color: white;
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 1; */
 }
 
 .logo {
-  padding-left: 5vw;
+  margin-left: 5vw;
   cursor: pointer;
 }
 
@@ -34,7 +34,7 @@ nav li:hover {
 
 nav a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Montserrat", sans-serif;
   color: white;
 }
@@ -44,7 +44,7 @@ nav a {
   border-radius: 3px;
   color: #333;
   display: inline-block;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 700;
   overflow: hidden;
   padding: 8px 20px;
@@ -52,6 +52,7 @@ nav a {
   background: #fff;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+  margin-top: 5px;
 }
 
 .download-btn2:hover {
