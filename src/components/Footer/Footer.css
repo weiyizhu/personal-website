@@ -1,0 +1,39 @@
+#footer {
+    background: black;
+    height: 40vh;
+    color: white;
+    font-size: 1vw;
+}
+
+.footer_container {
+    height: inherit;   
+    padding-left: 10vw;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer_info {
+    line-height: 1.7vw;
+    word-spacing: 2px;
+    
+}
+
+.footer_info a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.footer_info a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer_socials {
+    display: flex;
+}
+
+.footer_socials li {
+    padding-right: 1vw;
+}
