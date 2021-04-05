@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import {Email, GitHub, LinkedIn} from '@material-ui/icons'
 
 const Footer = (props) => {
   return (
@@ -17,9 +18,21 @@ const Footer = (props) => {
           </p>
         </div>
         <ul className="footer_socials">
-          <li>Email</li>
-          <li>Github</li>
-          <li>Linkedin</li>
+          <li>
+            <a href="mailto:wzhu1@swarthmore.edu">
+              <Email />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/weiyizhu" target="_blank">
+              <GitHub />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/weiyizhu/" target="_blank">
+              <LinkedIn />
+            </a>
+          </li>
         </ul>
       </div>
     </div>
