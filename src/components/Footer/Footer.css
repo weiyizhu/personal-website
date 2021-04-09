@@ -52,3 +52,8 @@
 .footer_socials li:hover {
     background-color: lightblue;
 }
+
+.footer_container h3 {
+    font-family: 'Marck Script', cursive;
+    font-size: 2vw;
+}

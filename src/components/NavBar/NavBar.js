@@ -12,7 +12,7 @@ const NavBar = (props) => {
   return (
     <nav>
       <a className="logo" href="#">
-        Logo
+        Weiyi Zhu
       </a>
       <ul>
         <li>
