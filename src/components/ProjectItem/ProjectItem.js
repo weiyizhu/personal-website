@@ -41,7 +41,7 @@ const ProjectItem = ({
         <p className="projectItem-brief-desc">{brief_desc}</p>
         <p className="projectItem-brief-desc">
           <span style={{ textDecoration: "underline" }}>Utitlized:</span>{" "}
-          {skills}
+          {skills}{"."}
         </p>
         {/* <span>
           <a href={github}>Github</a>
