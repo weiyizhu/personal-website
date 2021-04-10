@@ -1,0 +1,30 @@
+#about {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#about h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#about img {
+  float: left;
+  object-fit: cover;
+  width: 30vw;
+  box-sizing: border-box;
+  box-shadow: 0 0 9px 1px rgb(17 17 17 / 30%);
+  border-radius: 10px;
+}
+
+#about p {
+  margin-left: 30px;
+  box-sizing: border-box;
+  padding: 10px 25px 25px; /* top left right bottom */
+  
+}
+

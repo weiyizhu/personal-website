@@ -16,7 +16,7 @@ const NavBar = (props) => {
       </a>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#about">About</a>
         </li>
         <li>
           <a href="#projects">Projects</a>
