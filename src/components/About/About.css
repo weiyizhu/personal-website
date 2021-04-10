@@ -9,7 +9,7 @@
 
 #about h1 {
   font-size: 3em;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 #about img {
@@ -21,10 +21,36 @@
   border-radius: 10px;
 }
 
-#about p {
+.about-text-container {
   margin-left: 30px;
   box-sizing: border-box;
   padding: 10px 25px 25px; /* top left right bottom */
-  
 }
 
+.about-desc {
+  line-height: 1.4;
+}
+
+.about-desc-bold {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666;
+}
+
+.about-desc-bulletpt {
+  margin-top: 25px;
+}
+
+.about-desc-bulletpt li {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.about-desc-bulletpt span {
+  text-decoration: underline;
+}
+
+#about hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
