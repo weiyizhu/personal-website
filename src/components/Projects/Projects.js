@@ -33,11 +33,11 @@ information.`,
             <ProjectItem
               imgSrc={PersonalWebsite}
               title={"Personal Website"}
-              brief_desc={"Personal Project - This Website."}
-              desc={["A web app about taking notes in leetcode"]}
-              github={"github link about leetcode project"}
+              brief_desc={"Personal Project - This Website ^_^"}
+              desc={["A website about me!"]}
+              github={"https://github.com/weiyizhu/personal_website"}
               link={"leetcode link"}
-              skills={"React"}
+              skills={"React JS, CSS"}
             />
           </li>
         </div>
