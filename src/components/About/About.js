@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import AboutMe from '../../static_files/AboutMe.jpg'
+import AboutMe from "../../static_files/AboutMe.jpg";
 
 const About = () => {
   return (
@@ -11,10 +11,10 @@ const About = () => {
         <hr></hr>
         <div className="about-desc">
           <p className="about-desc-bold">
-            I'm eager to secure a full-time developer position in 2021 that will
-            allow me to utilize my problem solving skills and attention to
-            detail to further develop my abilities in the field of computer
-            science.
+            I'm an aspiring software engineer, Swarthmore College '23. I enjoy
+            creating programs that solve complex problems with clear,
+            well-structured code. In my spare time you can find me messing with
+            different tech stacks, playing Go, or watching the NBA.
           </p>
           <ul className="about-desc-bulletpt">
             <li>
@@ -26,10 +26,10 @@ const About = () => {
               jQuery, SQL, NoSQL, .NET, Git, AWS, agile.
             </li>
             <li>
-              <span>Hobbies:</span> NBA, Music, Tennis, Go (Chess).
+              <span>Languages:</span> English, Mandarin.
             </li>
             <li>
-              <span>Languages:</span> English, Mandarin.
+              <span>Hobbies:</span> NBA, Music, Tennis, Go (Chess).
             </li>
           </ul>
         </div>
