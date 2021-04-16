@@ -1,13 +1,13 @@
 #projects {
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+  padding-top: 5vw;
+  margin-bottom: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 #projects h1 {
-    font-size: 3em;
-    font-weight: bold;
+  font-size: 3em;
+  font-weight: bold;
 }
 
 #projects hr {
@@ -34,4 +34,26 @@
   width: 40vw;
 }
 
+@media only screen and (max-width: 767px) {
+  #projects {
+    padding-top: 20px;
+    margin-bottom: 5vw;
+  }
 
+  #projects h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#projects hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.projects_row {
+  display: block;
+  width: 100%;
+}
+.projects_row li {
+  width: 100%;
+}
+}

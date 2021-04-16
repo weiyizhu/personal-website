@@ -1,5 +1,5 @@
 .container {
-  height: 92vh;
+  height: 100vh;
   width: 100%;
   /* display: flex;
   flex-direction: column;
@@ -86,21 +86,19 @@
 
 .download-btn:hover {
   background: lightblue;
-  
 }
 
 .text-container h5,
 .text-container h2,
 .text-container p,
-.download-btn, #headshot {
+.download-btn,
+#headshot {
   animation-duration: var(--animationDuration);
   animation-name: fadeIn;
   animation-timing-function: ease-in;
   opacity: 0;
   animation-fill-mode: forwards;
 }
-
-
 
 @keyframes fadeIn {
   from {
@@ -112,3 +110,50 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .container {
+    height: 600px;
+  }
+  .inner-container {
+    flex-direction: column;
+  }
+  #headshot {
+    width: 180px;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .text-container {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .text-container h5 {
+    font-size: 25px;
+    font-weight: 1em;
+    animation-delay: 0.5s;
+  }
+  .text-container h2 {
+    font-size: 30px;
+    font-weight: 2em;
+    animation-delay: 1s;
+    margin-top: 2vw;
+  }
+
+  .text-container p {
+    font-size: 15px;
+    animation-delay: 2s;
+    margin-top: 2vw;
+  }
+
+  .download-btn {
+    border-radius: 5px;
+    font-size: 8px;
+    font-weight: 700;
+    margin-top: 2.5vw;
+    overflow: hidden;
+    padding: 5px 5px;
+  }
+}

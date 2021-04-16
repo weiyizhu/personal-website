@@ -1,6 +1,5 @@
 #about {
-  margin-top: 5vw;
-  margin-bottom: 5vw;
+  padding-top: 5vw;
   margin-left: 10vw;
   margin-right: 10vw;
   display: flex;
@@ -13,7 +12,6 @@
 }
 
 #about img {
-  float: left;
   object-fit: cover;
   width: 30vw;
   box-sizing: border-box;
@@ -24,7 +22,7 @@
 .about-text-container {
   margin-left: 30px;
   box-sizing: border-box;
-  padding: 10px 25px 25px; /* top left right bottom */
+  padding: 10px 25px 0px 25px; /* top right bottom left */
 }
 
 .about-desc {
@@ -53,4 +51,34 @@
 #about hr {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  #about {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+  #about img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .about-text-container {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #about h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .about-desc-bold {
+    font-size: 15px;
+  }
+  .about-desc-bulletpt {
+    font-size: 13px;
+  }
 }
