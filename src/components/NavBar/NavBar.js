@@ -10,6 +10,11 @@ const NavBar = (props) => {
   const handleClick = () => {
     setClicked(!clicked);
   };
+
+  const closeMobileMenu = () => {
+    setClicked(false)
+  }
+
   return (
     <nav>
       <a className="logo" href="#">
@@ -18,18 +23,24 @@ const NavBar = (props) => {
       <div className="hamburger" onClick={handleClick}>
         {clicked ? <CloseIcon /> : <MenuIcon />}
       </div>
-      <ul className={clicked ? "nav-list-mobile" : "nav-list"}>
+      <ul className={clicked ? "nav-list active" : "nav-list"}>
         <li>
-          <a href="#about">About</a>
+          <a href="#about" onClick={closeMobileMenu}>
+            About
+          </a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects" onClick={closeMobileMenu}>
+            Projects
+          </a>
         </li>
         <li>
-          <a href="#footer">Contact</a>
+          <a href="#footer" onClick={closeMobileMenu}>
+            Contact
+          </a>
         </li>
         <li>
-          <a href={Resume} download="Resume.pdf">
+          <a href={Resume} download="Resume.pdf" onClick={closeMobileMenu}>
             Resume
           </a>
         </li>

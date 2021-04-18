@@ -8,7 +8,9 @@ nav {
   align-items: center; /* make them center vertically in the navbar flex box */
   background-color: black;
   color: white;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .logo {
@@ -42,7 +44,7 @@ nav a:hover {
   color: lightblue;
 }
 
-.nav-list .nav-list-mobile a:hover {
+.nav-list a:hover {
   background-color: #555;
 }
 
@@ -66,17 +68,10 @@ nav a:hover {
 
   .nav-list {
     display: none;
-  }
-
-  .nav-list-mobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
   }
 
-  .nav-list-mobile li {
+  .nav-list li {
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -87,7 +82,14 @@ nav a:hover {
     margin: 0;
   }
 
-  .nav-list-mobile li:hover {
+  .nav-list li:hover {
     background-color: #555;
+  }
+
+  .nav-list.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
