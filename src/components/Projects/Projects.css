@@ -36,8 +36,7 @@
 
 @media only screen and (max-width: 767px) {
   #projects {
-    padding-top: 20px;
-    margin-bottom: 5vw;
+    padding-top: 25px;
   }
 
   #projects h1 {
