@@ -33,15 +33,16 @@ const ProjectItem = ({
         <img src={imgSrc} alt={title} />
       </picture> */}
       <div className="projectItem-brief">
-        <p>
-          <h5 className="projectItem-brief-title">
-            <a href={link} style={{textDecoration: "none", color: "black"}}>{title}</a>
-          </h5>
+        <p className="projectItem-brief-title">
+          <a href={link} style={{ textDecoration: "none", color: "black" }}>
+            {title}
+          </a>
         </p>
         <p className="projectItem-brief-desc">{brief_desc}</p>
         <p className="projectItem-brief-desc">
           <span style={{ textDecoration: "underline" }}>Utitlized:</span>{" "}
-          {skills}{"."}
+          {skills}
+          {"."}
         </p>
         {/* <span>
           <a href={github}>Github</a>
