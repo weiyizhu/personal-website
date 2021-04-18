@@ -16,7 +16,7 @@ const ProjectItem = ({
         <img src={imgSrc} alt={title} />
         <div className="projectItem-desc">
           {desc.map((bullet, i) => {
-            return <p>• {bullet}</p>;
+            return <p key={bullet}>• {bullet}</p>;
           })}
         </div>
         <div className="links">
