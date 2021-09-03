@@ -19,7 +19,7 @@ const Home = (props) => {
             <h5>WELCOME</h5>
             <h2>MY NAME IS WEIYI ZHU</h2>
             <p>I'm a Software Engineer</p>
-            <a href={Resume} download="Resume.pdf" className="download-btn">
+            <a href={Resume} download="WeiyiZhu(2021).pdf" className="download-btn">
               DOWNLOAD RESUME
             </a>
           </div>
