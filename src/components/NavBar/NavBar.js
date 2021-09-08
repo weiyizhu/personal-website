@@ -40,7 +40,7 @@ const NavBar = (props) => {
           </a>
         </li>
         <li>
-          <a href={Resume} download="Resume.pdf" onClick={closeMobileMenu}>
+          <a href={Resume} download="WeiyiZhu(2021).pdf" onClick={closeMobileMenu}>
             Resume
           </a>
         </li>
