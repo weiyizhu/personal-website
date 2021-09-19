@@ -18,12 +18,14 @@ const About = () => {
           </p>
           <ul className="about-desc-bulletpt">
             <li>
-              <span>Programming Languages:</span> Python, C#, JavaScript, C++,
-              Java.
+              <span>Programming Languages:</span> Python, JavaScript, C#, C++.
             </li>
             <li>
-              <span>Frameworks/Tools:</span> React JS, Express JS, HTML, CSS,
-              jQuery, SQL, NoSQL, .NET, Git, AWS, agile.
+              <span>Web Development:</span> React, Express, TypeScript, Redux,
+              Apollo GraphQL, HTML, CSS, jQuery, Mulesoft, .NET.
+            </li>
+            <li>
+              <span>Database:</span> SQL Server, MySQL, Oracle Database, MongoDB.
             </li>
             <li>
               <span>Languages:</span> English, Mandarin.

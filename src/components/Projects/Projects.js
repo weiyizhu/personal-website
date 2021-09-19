@@ -17,7 +17,7 @@ const Project = (props) => {
               imgSrc={NewsCompare}
               title={"News Compare"}
               brief_desc={
-                "A website that provides news comparisons across different news sources."
+                "A website that provides news comparisons between different news sources."
               }
               desc={[
                 "Customizable keywords searching, source selections, and filtering options.",
@@ -27,7 +27,7 @@ const Project = (props) => {
               github={"https://github.com/weiyizhu/News_Compare"}
               link={"https://news-compare.com"}
               skills={
-                "MongoDB, Express, React, Node, TypeScript, Redux, Material UI, JWT, React router dom, Heroku"
+                "MongoDB, Express, React, Node, TypeScript, Redux, Material UI, JWT authentication, React router dom, Heroku"
               }
             />
           </li>
