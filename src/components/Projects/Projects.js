@@ -4,6 +4,8 @@ import "./Projects.css";
 import NinePM from "../../static_files/9PM.png";
 import PersonalWebsite from "../../static_files/PersonalWebsite.PNG";
 import NewsCompare from "../../static_files/News_Compare.png";
+import Hablink from "../../static_files/Hablink.png";
+import ProjectItemMobile from "../ProjectItemMobile/ProjectItemMobile";
 
 const Project = (props) => {
   return (
@@ -12,6 +14,25 @@ const Project = (props) => {
       <hr></hr>
       <ul className="projects_container">
         <div className="projects_row">
+          <li>
+            <ProjectItemMobile
+              imgSrc={Hablink}
+              title={"Hablink"}
+              brief_desc={
+                "A mobile application that allows users to create and share habits with friends"
+              }
+              desc={[
+                "Create, edit, and track habits.",
+                "Set daily, weekly, and monthly goal.",
+                "Share habits with friends of your choice.",
+                "Compete with friends to instill the habits in your routine.",
+              ]}
+              github={"https://github.com/weiyizhu/habitlink"}
+              iosLink={""}
+              androidLink={""}
+              skills={"React Native, TypeScript, Tailwind CSS, Firebase"}
+            />
+          </li>
           <li>
             <ProjectItem
               imgSrc={NewsCompare}
@@ -31,6 +52,10 @@ const Project = (props) => {
               }
             />
           </li>
+        </div>
+      </ul>
+      <ul className="projects_container">
+        <div className="projects_row">
           <li>
             <ProjectItem
               imgSrc={PersonalWebsite}
@@ -42,10 +67,6 @@ const Project = (props) => {
               skills={"React JS, CSS"}
             />
           </li>
-        </div>
-      </ul>
-      <ul className="projects_container">
-        <div className="projects_row">
           <li>
             <ProjectItem
               imgSrc={NinePM}
@@ -64,7 +85,6 @@ information.`,
               }
             />
           </li>
-          <li></li>
         </div>
       </ul>
     </section>
