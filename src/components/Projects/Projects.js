@@ -19,7 +19,7 @@ const Project = (props) => {
               imgSrc={Hablink}
               title={"Hablink"}
               brief_desc={
-                "A mobile application that allows users to create and share habits with friends"
+                "A mobile application that allows users to create and share habits with friends."
               }
               desc={[
                 "Create, edit, and track habits.",
@@ -60,7 +60,7 @@ const Project = (props) => {
             <ProjectItem
               imgSrc={PersonalWebsite}
               title={"Personal Website"}
-              brief_desc={"Personal Project - This Website ^_^"}
+              brief_desc={"This Website ^_^"}
               desc={["A website about me!"]}
               github={"https://github.com/weiyizhu/personal_website"}
               link={""}
@@ -71,7 +71,7 @@ const Project = (props) => {
             <ProjectItem
               imgSrc={NinePM}
               title={"9 PM"}
-              brief_desc={`Team Project - An Online Platform Helping Gamers Find Teammates.`}
+              brief_desc={`An online platform helping gamers find teammates.`}
               desc={[
                 `An online teaming platform aiming to help gamers find teammates based on available times, games,
 and teams.`,
