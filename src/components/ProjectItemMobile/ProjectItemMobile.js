@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectItemMobile.css";
+import { GitHub, Apple, Android } from "@material-ui/icons";
 
 const ProjectItemMobile = ({
   imgSrc,
@@ -21,14 +22,18 @@ const ProjectItemMobile = ({
           })}
         </div>
         <div className="mobile-links">
-          <a className="github_btn" href={github} target="_blank">
-            Github
+          <a className="link_btn" href={github} target="_blank">
+            <GitHub fontSize="small" />
           </a>
-          <a className="link_btn" href={iosLink} target="_blank">
-            IOS
+          <a className="link_btn apple_link" href={iosLink} target="_blank">
+            <Apple />
           </a>
-          <a className="link_btn" href={androidLink} target="_blank">
-            Android
+          <a
+            className="link_btn android_link"
+            href={androidLink}
+            target="_blank"
+          >
+            <Android />
           </a>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectItem.css";
+import { Explore, GitHub } from "@material-ui/icons";
 
 const ProjectItem = ({
   imgSrc,
@@ -20,11 +21,11 @@ const ProjectItem = ({
           })}
         </div>
         <div className="links">
-          <a className="github_btn" href={github} target="_blank">
-            Github
+          <a className="link_btn" href={github} target="_blank">
+            <GitHub fontSize="small" />
           </a>
           <a className="link_btn" href={link} target="_blank">
-            Link
+            <Explore />
           </a>
         </div>
       </div>
