@@ -28,8 +28,10 @@ const Project = (props) => {
                 "Compete with friends to instill the habits in your routine.",
               ]}
               github={"https://github.com/weiyizhu/habitlink"}
-              iosLink={""}
-              androidLink={""}
+              iosLink={"https://apps.apple.com/us/app/hablink/id1623658227"}
+              androidLink={
+                "https://play.google.com/store/apps/details?id=com.habitlink"
+              }
               skills={"React Native, TypeScript, Tailwind CSS, Firebase"}
             />
           </li>
