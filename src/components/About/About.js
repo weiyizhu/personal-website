@@ -11,27 +11,26 @@ const About = () => {
         <hr></hr>
         <div className="about-desc">
           <p className="about-desc-bold">
-            I'm an aspiring software engineer, Swarthmore College '23. I enjoy
-            creating programs that solve complex problems with clear,
+            I enjoy creating programs that solve complex problems with clear,
             well-structured code. In my spare time you can find me messing with
-            different tech stacks, playing Go, or watching the NBA.
+            different tech stacks, playing Go, or watching the NBA
           </p>
           <ul className="about-desc-bulletpt">
             <li>
-              <span>Programming Languages:</span> Python, JavaScript, C#, C++.
+              <span>Programming Languages:</span> Python, JavaScript, Java, C++.
             </li>
             <li>
-              <span>Web Development:</span> React, Express, TypeScript, Redux,
-              Apollo GraphQL, HTML, CSS, jQuery, Mulesoft, .NET.
+              <span>Frameworks:</span> React (Native), Express, TypeScript,
+              Redux, GraphQL, SQL, MongoDB, Firebase
             </li>
             <li>
-              <span>Database:</span> SQL Server, MySQL, Oracle Database, MongoDB.
+              <span>Tools:</span> Git, AWS, Unix/Linux, Figma, Heroku, Vim
             </li>
             <li>
-              <span>Languages:</span> English, Mandarin.
+              <span>Languages:</span> English (fluent), Mandarin (fluent)
             </li>
             <li>
-              <span>Hobbies:</span> NBA, Music, Tennis, Go (Chess).
+              <span>Hobbies:</span> NBA, Music, Tennis, Go (Chess)
             </li>
           </ul>
         </div>

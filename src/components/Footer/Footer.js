@@ -11,15 +11,15 @@ const Footer = (props) => {
           <p>Sammamish, WA</p>
           <p>
             Email:{" "}
-            <a href="mailto:wzhu1@swarthmore.edu">wzhu1@swarthmore.edu</a>
+            <a href="mailto:zhuwy99@gmail.com">zhuwy99@gmail.com</a>
           </p>
           <p>
-            Phone: <a href="tel:+19495262914">(949) 526-2914</a>
+            Phone: <a href="tel:+19495262914">949-526-2914</a>
           </p>
         </div>
         <ul className="footer_socials">
           <li>
-            <a href="mailto:wzhu1@swarthmore.edu">
+            <a href="mailto:zhuwy99@gmail.com">
               <Email />
             </a>
           </li>
