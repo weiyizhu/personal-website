@@ -47,7 +47,7 @@ const Project = (props) => {
                 "Implemented user authentication with access and reset tokens.",
                 "Allowed users to save, manage and recover their favorite topics and news.",
               ]}
-              github={"https://github.com/weiyizhu/News_Compare"}
+              github={"https://github.com/weiyizhu/news-compare"}
               link={"https://news-compare.com"}
               skills={
                 "MongoDB, Express, React, Node, TypeScript, Redux, Material UI, JWT authentication, React router dom, Heroku"
@@ -64,7 +64,7 @@ const Project = (props) => {
               title={"Personal Website"}
               brief_desc={"This Website ^_^"}
               desc={["A website about me!"]}
-              github={"https://github.com/weiyizhu/personal_website"}
+              github={"https://github.com/weiyizhu/personal-website"}
               link={""}
               skills={"React JS, CSS"}
             />
