@@ -27,7 +27,7 @@ const Project = (props) => {
                 "Optimized performance and memory use by implementing mark-compact garbage collection and tail-call optimization.",
               ]}
               github={"https://github.com/weiyizhu/bird-compiler"}
-              skills={"OCaml, x86-64 assembly, nasm, clang"}
+              skills={"OCaml, x86-64 assembly"}
             />
           </li>
           <li>
