@@ -5,6 +5,7 @@ import NinePM from "../../static_files/9PM.png";
 import PersonalWebsite from "../../static_files/PersonalWebsite.PNG";
 import NewsCompare from "../../static_files/News_Compare.png";
 import Hablink from "../../static_files/Hablink.png";
+import BirdCompiler from "../../static_files/BirdCompiler.png";
 import ProjectItemMobile from "../ProjectItemMobile/ProjectItemMobile";
 
 const Project = (props) => {
@@ -14,6 +15,21 @@ const Project = (props) => {
       <hr></hr>
       <ul className="projects_container">
         <div className="projects_row">
+          <li>
+            <ProjectItem
+              imgSrc={BirdCompiler}
+              title={"Bird Compiler"}
+              brief_desc={
+                "A compiler in OCaml that parses, transforms, and compiles the “bird” language into x86-64 assembly."
+              }
+              desc={[
+                "Implemented language features including loops, conditionals, tuples, first-class functions and partial application.",
+                "Optimized performance and memory use by implementing mark-compact garbage collection and tail-call optimization.",
+              ]}
+              github={"https://github.com/weiyizhu/bird-compiler"}
+              skills={"OCaml, x86-64 assembly, nasm, clang"}
+            />
+          </li>
           <li>
             <ProjectItemMobile
               imgSrc={Hablink}
@@ -35,6 +51,10 @@ const Project = (props) => {
               skills={"React Native, TypeScript, Tailwind CSS, Firebase"}
             />
           </li>
+        </div>
+      </ul>
+      <ul className="projects_container">
+        <div className="projects_row">
           <li>
             <ProjectItem
               imgSrc={NewsCompare}
@@ -54,10 +74,6 @@ const Project = (props) => {
               }
             />
           </li>
-        </div>
-      </ul>
-      <ul className="projects_container">
-        <div className="projects_row">
           <li>
             <ProjectItem
               imgSrc={PersonalWebsite}
@@ -69,6 +85,10 @@ const Project = (props) => {
               skills={"React JS, CSS"}
             />
           </li>
+        </div>
+      </ul>
+      <ul className="projects_container">
+        <div className="projects_row">
           <li>
             <ProjectItem
               imgSrc={NinePM}
@@ -87,6 +107,7 @@ information.`,
               }
             />
           </li>
+          <li></li>
         </div>
       </ul>
     </section>

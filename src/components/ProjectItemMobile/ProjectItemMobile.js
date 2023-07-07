@@ -22,9 +22,6 @@ const ProjectItemMobile = ({
           })}
         </div>
         <div className="mobile-links">
-          <a className="link_btn" href={github} target="_blank">
-            <GitHub fontSize="small" />
-          </a>
           <a className="link_btn apple_link" href={iosLink} target="_blank">
             <Apple />
           </a>
@@ -34,6 +31,9 @@ const ProjectItemMobile = ({
             target="_blank"
           >
             <Android />
+          </a>
+          <a className="link_btn" href={github} target="_blank">
+            <GitHub fontSize="small" />
           </a>
         </div>
       </div>

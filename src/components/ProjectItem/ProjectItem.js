@@ -21,11 +21,13 @@ const ProjectItem = ({
           })}
         </div>
         <div className="links">
+          {link ? (
+            <a className="link_btn" href={link} target="_blank">
+              <Explore />
+            </a>
+          ) : <a></a>}
           <a className="link_btn" href={github} target="_blank">
             <GitHub fontSize="small" />
-          </a>
-          <a className="link_btn" href={link} target="_blank">
-            <Explore />
           </a>
         </div>
       </div>
