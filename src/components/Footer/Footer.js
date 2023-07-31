@@ -29,7 +29,7 @@ const Footer = (props) => {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/weiyizhu/" target="_blank">
+            <a href="https://www.linkedin.com/in/zhuweiyi/" target="_blank">
               <LinkedIn />
             </a>
           </li>
