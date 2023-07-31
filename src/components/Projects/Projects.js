@@ -20,14 +20,14 @@ const Project = (props) => {
               imgSrc={BirdCompiler}
               title={"Bird Compiler"}
               brief_desc={
-                "A compiler in OCaml that parses, transforms, and compiles the “bird” language into x86-64 assembly."
+                "A compiler that parses, transforms, and compiles “bird” language into assembly."
               }
               desc={[
                 "Implemented language features including loops, conditionals, tuples, first-class functions and partial application.",
                 "Optimized performance and memory use by implementing mark-compact garbage collection and tail-call optimization.",
               ]}
               github={"https://github.com/weiyizhu/bird-compiler"}
-              skills={"OCaml, x86-64 assembly"}
+              skills={"OCaml, C, x86-64 assembly"}
             />
           </li>
           <li>
@@ -70,7 +70,7 @@ const Project = (props) => {
               github={"https://github.com/weiyizhu/news-compare"}
               link={"https://news-compare.com"}
               skills={
-                "MongoDB, Express, React, Node, TypeScript, Redux, Material UI, JWT authentication, React router dom, Heroku"
+                "React, Express, Node, TypeScript, MongoDB, Redux, JWT"
               }
             />
           </li>
@@ -82,7 +82,7 @@ const Project = (props) => {
               desc={["A website about me!"]}
               github={"https://github.com/weiyizhu/personal-website"}
               link={""}
-              skills={"React JS, CSS"}
+              skills={"React, CSS"}
             />
           </li>
         </div>

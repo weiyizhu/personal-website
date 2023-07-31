@@ -17,14 +17,19 @@ const About = () => {
           </p>
           <ul className="about-desc-bulletpt">
             <li>
-              <span>Programming Languages:</span> Python, JavaScript, Java, C++.
+              <span>Programming Languages:</span> Python, JavaScript, Java,
+              OCaml, C++, C#.
             </li>
             <li>
-              <span>Frameworks:</span> React (Native), Express, TypeScript,
-              Redux, GraphQL, SQL, MongoDB, Firebase
+              <span>Frameworks:</span> React (Native), Node, Express,
+              TypeScript, SQL, MongoDB, Firebase, .NET, GraphQL, Redux
             </li>
             <li>
-              <span>Tools:</span> Git, AWS, Unix/Linux, Figma, Heroku, Vim
+              <span>AWS:</span> OpenSearch (ElasticSearch), Lambda, Step
+              Functions, DynamoDB, S3, API Gateway
+            </li>
+            <li>
+              <span>Tools:</span> Git, Unix/Linux, Figma, Vim
             </li>
             <li>
               <span>Languages:</span> English (fluent), Mandarin (fluent)
