@@ -8,7 +8,7 @@ const Footer = (props) => {
       <div className="footer_container">
         <h3>Weiyi Zhu</h3>
         <div className="footer_info">
-          <p>Sammamish, WA</p>
+          <p>Redmond, WA</p>
           <p>
             Email:{" "}
             <a href="mailto:zhuwy99@gmail.com">zhuwy99@gmail.com</a>
